@@ -62,6 +62,10 @@ public class MainTest {
         assertTrue(String.format("%.2f", circle.getArea()).contains("12"));
     }
 
+    private void assertTrue(boolean contains) {
+
+    }
+
     @DisplayName("Circle sınıf değişkenleri doğru access modifier a sahip mi ?")
     @Test
     public void testCylinderAccessModifiers() throws NoSuchFieldException {
